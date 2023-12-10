@@ -1,0 +1,7 @@
+bindings:
+ cycle: Identity();
+ name: NumberNameToString();
+
+ops:
+ op1:
+  stmt: "testing: cycle={cycle}, name={name}\n"

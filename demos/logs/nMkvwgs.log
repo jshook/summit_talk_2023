@@ -1,0 +1,16 @@
+2023-12-10 20:53:57,926 [main] INFO : Configured scenario log at logs/nMkvwgs.log
+2023-12-10 20:53:57,928 [main] INFO : Running NoSQLBench Version 5.21.1-SNAPSHOT
+2023-12-10 20:53:57,929 [main] INFO : command-line: run driver=stdout op=testing: cycle={{Identity()}}, name={{NumberNameToString()}}\n cycles=5
+2023-12-10 20:53:58,574 [main] INFO : client-hardware: {"if-speeds":["0Mib","1Gib"],"physical-cores":"12","max-frequency-ghz":"0.00","logical-cores":"24","sockets":"1","memory-GiB":"62.73","processor-name":"AMD Ryzen 9 3900X 12-Core Processor","heap-max-GiB":"15.68"}
+2023-12-10 20:53:58,773 [main] INFO : {"layer":"Session","start":1702241638767,"end":1702241638767,"details":{"cli":"run\ndriver\u003dstdout\nop\u003dtesting: cycle\u003d{{Identity()}}, name\u003d{{NumberNameToString()}}\\n\ncycles\u003d5"}}
+2023-12-10 20:53:59,445 [main] INFO : console logging level is WARN
+2023-12-10 20:53:59,473 [main] INFO : Reading Bearer Token from /home/jshook/.nosqlbench/prompush/prompush_apikey
+2023-12-10 20:53:59,486 [main] INFO : {"layer":"Scenario","start":1702241639485,"end":1702241639485,"details":{}}
+2023-12-10 20:54:00,600 [main] INFO : setting param alias=STDOUT0
+2023-12-10 20:54:00,658 [main] INFO : (<☑>) {block=block0, name=block0__stmt1, op=stmt1} : matched empty pattern
+2023-12-10 20:54:01,083 [main] INFO : defaulting stride to 1 (the sequence length)
+2023-12-10 20:54:01,088 [] INFO : {"layer":"Activity","start":1702241641086,"end":1702241641086,"details":{"event":"start-activity","params":"ActivityDef:(2)/{op\u003dtesting: cycle\u003d{{Identity()}}, name\u003d{{NumberNameToString()}}\n, driver\u003dstdout, alias\u003dSTDOUT0, cycles\u003d5, stride\u003d1}"}}
+2023-12-10 20:54:01,301 [] INFO : starting activity STDOUT0 for cycles [0..5)=5
+2023-12-10 20:54:01,301 [] INFO : {"layer":"Activity","start":1702241641301,"end":1702241641301,"details":{"params":"ActivityDef:(2)/{op\u003dtesting: cycle\u003d{{Identity()}}, name\u003d{{NumberNameToString()}}\n, driver\u003dstdout, alias\u003dSTDOUT0, cycles\u003d5, stride\u003d1}"}}
+2023-12-10 20:54:01,553 [] INFO : {"layer":"Activity","start":1702241641494,"end":1702241641552,"details":{"event":"stop-activity","params":"ActivityDef:(2)/{op\u003dtesting: cycle\u003d{{Identity()}}, name\u003d{{NumberNameToString()}}\n, driver\u003dstdout, alias\u003dSTDOUT0, cycles\u003d5, stride\u003d1}"}}
+2023-12-10 20:54:01,775 [main] INFO : ExecutionResult{status=OK, startedAt=1702241639701, endedAt=1702241641767, exception=null, iolog=''}

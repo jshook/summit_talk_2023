@@ -1,0 +1,19 @@
+2023-12-10 04:00:01,575 [main] INFO : Configured scenario log at logs/nMgTrE8.log
+2023-12-10 04:00:01,578 [main] INFO : Running NoSQLBench Version 5.21.1-SNAPSHOT
+2023-12-10 04:00:01,578 [main] INFO : command-line: run driver=cqld4 op=describe keyspaces; localdc=datacenter1 host=localhost dryrun=emit
+2023-12-10 04:00:02,269 [main] INFO : client-hardware: {"max-frequency-ghz":"0.00","physical-cores":"12","if-speeds":["0Mib","1Gib"],"heap-max-GiB":"15.68","processor-name":"AMD Ryzen 9 3900X 12-Core Processor","memory-GiB":"62.73","sockets":"1","logical-cores":"24"}
+2023-12-10 04:00:02,487 [main] INFO : {"layer":"Session","start":1702180802482,"end":1702180802482,"details":{"cli":"run\ndriver\u003dcqld4\nop\u003ddescribe keyspaces;\nlocaldc\u003ddatacenter1\nhost\u003dlocalhost\ndryrun\u003demit"}}
+2023-12-10 04:00:03,152 [main] INFO : console logging level is WARN
+2023-12-10 04:00:03,183 [main] INFO : Reading Bearer Token from /home/jshook/.nosqlbench/prompush/prompush_apikey
+2023-12-10 04:00:03,201 [main] INFO : {"layer":"Scenario","start":1702180803200,"end":1702180803200,"details":{}}
+2023-12-10 04:00:04,317 [main] INFO : setting param alias=CQLD40
+2023-12-10 04:00:04,373 [main] INFO : (<☑>) {block=block0, name=block0__stmt1, op=stmt1} : matched empty pattern
+2023-12-10 04:00:04,500 [main] INFO : Using prepared statement form for 'block0__stmt1
+2023-12-10 04:00:05,490 [main] INFO : defaulting stride to 1 (the sequence length)
+2023-12-10 04:00:05,491 [main] INFO : defaulting cycles to 1 (the stride length)
+2023-12-10 04:00:05,491 [main] INFO : setting param cycles=1
+2023-12-10 04:00:05,496 [] INFO : {"layer":"Activity","start":1702180805494,"end":1702180805494,"details":{"event":"start-activity","params":"ActivityDef:(3)/{op\u003ddescribe keyspaces;, localdc\u003ddatacenter1, dryrun\u003demit, driver\u003dcqld4, host\u003dlocalhost, alias\u003dCQLD40, cycles\u003d1, stride\u003d1}"}}
+2023-12-10 04:00:05,696 [] INFO : starting activity CQLD40 for cycles [0..1)=1
+2023-12-10 04:00:05,697 [] INFO : {"layer":"Activity","start":1702180805696,"end":1702180805696,"details":{"params":"ActivityDef:(3)/{op\u003ddescribe keyspaces;, localdc\u003ddatacenter1, dryrun\u003demit, driver\u003dcqld4, host\u003dlocalhost, alias\u003dCQLD40, cycles\u003d1, stride\u003d1}"}}
+2023-12-10 04:00:07,984 [] INFO : {"layer":"Activity","start":1702180805897,"end":1702180807983,"details":{"event":"stop-activity","params":"ActivityDef:(3)/{op\u003ddescribe keyspaces;, localdc\u003ddatacenter1, dryrun\u003demit, driver\u003dcqld4, host\u003dlocalhost, alias\u003dCQLD40, cycles\u003d1, stride\u003d1}"}}
+2023-12-10 04:00:08,205 [main] INFO : ExecutionResult{status=OK, startedAt=1702180803406, endedAt=1702180808198, exception=null, iolog=''}

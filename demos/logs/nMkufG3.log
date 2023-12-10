@@ -1,0 +1,3 @@
+2023-12-10 20:48:27,782 [main] INFO : Configured scenario log at logs/nMkufG3.log
+2023-12-10 20:48:27,785 [main] INFO : Running NoSQLBench Version 5.21.1-SNAPSHOT
+2023-12-10 20:48:27,785 [main] INFO : command-line: run driver=stdout workload=workload1.yaml cycles=5

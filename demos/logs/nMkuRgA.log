@@ -1,0 +1,8 @@
+2023-12-10 20:51:01,793 [main] INFO : Configured scenario log at logs/nMkuRgA.log
+2023-12-10 20:51:01,796 [main] INFO : Running NoSQLBench Version 5.21.1-SNAPSHOT
+2023-12-10 20:51:01,796 [main] INFO : command-line: run driver=stdout op=testing: cycle={{Identity()}}, name={{NumberNameToString()}}\n cycles=1111110..1111115
+2023-12-10 20:51:02,468 [main] INFO : client-hardware: {"physical-cores":"12","max-frequency-ghz":"0.00","logical-cores":"24","sockets":"1","memory-GiB":"62.73","processor-name":"AMD Ryzen 9 3900X 12-Core Processor","heap-max-GiB":"15.68","if-speeds":["0Mib","1Gib"]}
+2023-12-10 20:51:02,721 [main] INFO : {"layer":"Session","start":1702241462715,"end":1702241462715,"details":{"cli":"run\ndriver\u003dstdout\nop\u003dtesting: cycle\u003d{{Identity()}}, name\u003d{{NumberNameToString()}}\\n\ncycles\u003d1111110..1111115"}}
+2023-12-10 20:51:03,423 [main] INFO : console logging level is WARN
+2023-12-10 20:51:03,452 [main] INFO : Reading Bearer Token from /home/jshook/.nosqlbench/prompush/prompush_apikey
+2023-12-10 20:51:03,467 [main] INFO : {"layer":"Scenario","start":1702241463467,"end":1702241463467,"details":{}}

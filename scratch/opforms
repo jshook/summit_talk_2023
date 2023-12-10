@@ -1,0 +1,9 @@
+#!/bin/bash
+#nb5 run driver=stdout stmt='{{Identity()}}\n' cycles=10
+#nb5 run driver=stdout op='{\"stmt\":\"{{Identity()}}\n\"}' cycles=10
+nb5 run cycles=10 driver=stdout workload='{\"bindings\":{\"b1\":\"Identity()\"},\"op\":{\"stmt\":\"b1:{b1}\\"}}'
+#nb5 run driver=stdout op='{\"stmt\":\"{{Identity()}}\n\"}' cycles=10
+#nb5 run driver=stdout workload='{\"stmt\":\"{{Identity()}}\n\"}' cycles=10
+##nb5 run driver=stdout op='{\"stmt\":\"{{Identity()}}\n\"}' cycles=10
+##nb5 run driver=stdout op='{\"stmt\":\"{{Identity()}}\n\"}' cycles=10
+#nb5 run driver=stdout op='{\"stmt\":\"{{Identity()}}\n\"}' cycles=10
