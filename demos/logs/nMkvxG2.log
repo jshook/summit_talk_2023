@@ -1,0 +1,8 @@
+2023-12-10 20:54:03,624 [main] INFO : Configured scenario log at logs/nMkvxG2.log
+2023-12-10 20:54:03,627 [main] INFO : Running NoSQLBench Version 5.21.1-SNAPSHOT
+2023-12-10 20:54:03,628 [main] INFO : command-line: run driver=stdout op=testing: cycle={{Identity()}}, name={{NumberNameToString()}}\n cycles=5..10
+2023-12-10 20:54:04,281 [main] INFO : client-hardware: {"heap-max-GiB":"15.68","if-speeds":["0Mib","1Gib"],"physical-cores":"12","max-frequency-ghz":"0.00","logical-cores":"24","sockets":"1","memory-GiB":"62.73","processor-name":"AMD Ryzen 9 3900X 12-Core Processor"}
+2023-12-10 20:54:04,503 [main] INFO : {"layer":"Session","start":1702241644498,"end":1702241644498,"details":{"cli":"run\ndriver\u003dstdout\nop\u003dtesting: cycle\u003d{{Identity()}}, name\u003d{{NumberNameToString()}}\\n\ncycles\u003d5..10"}}
+2023-12-10 20:54:05,179 [main] INFO : console logging level is WARN
+2023-12-10 20:54:05,207 [main] INFO : Reading Bearer Token from /home/jshook/.nosqlbench/prompush/prompush_apikey
+2023-12-10 20:54:05,220 [main] INFO : {"layer":"Scenario","start":1702241645220,"end":1702241645220,"details":{}}

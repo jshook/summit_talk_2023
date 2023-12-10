@@ -1,0 +1,5 @@
+2023-12-10 21:13:36,267 [main] INFO : Configured scenario log at logs/nMkA0Y9.log
+2023-12-10 21:13:36,270 [main] INFO : Running NoSQLBench Version 5.21.1-SNAPSHOT
+2023-12-10 21:13:36,270 [main] INFO : command-line: --cat examples/cql-rowops.yaml
+2023-12-10 21:13:36,960 [main] INFO : client-hardware: {"physical-cores":"12","if-speeds":["0Mib","1Gib"],"heap-max-GiB":"15.68","processor-name":"AMD Ryzen 9 3900X 12-Core Processor","memory-GiB":"62.73","sockets":"1","logical-cores":"24","max-frequency-ghz":"0.00"}
+2023-12-10 21:13:37,135 [main] INFO : Dumped internal resource '/activities/examples/cql-rowops.yaml' to stdout

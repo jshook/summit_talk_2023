@@ -1,0 +1,16 @@
+2023-12-10 20:58:40,166 [main] INFO : Configured scenario log at logs/nMkwBbn.log
+2023-12-10 20:58:40,169 [main] INFO : Running NoSQLBench Version 5.21.1-SNAPSHOT
+2023-12-10 20:58:40,169 [main] INFO : command-line: run driver=stdout op=normal: {{Normal(50.0,10.0)}}\n cycles=10
+2023-12-10 20:58:40,844 [main] INFO : client-hardware: {"memory-GiB":"62.73","processor-name":"AMD Ryzen 9 3900X 12-Core Processor","heap-max-GiB":"15.68","if-speeds":["0Mib","1Gib"],"physical-cores":"12","max-frequency-ghz":"0.00","logical-cores":"24","sockets":"1"}
+2023-12-10 20:58:41,042 [main] INFO : {"layer":"Session","start":1702241921037,"end":1702241921037,"details":{"cli":"run\ndriver\u003dstdout\nop\u003dnormal: {{Normal(50.0,10.0)}}\\n\ncycles\u003d10"}}
+2023-12-10 20:58:41,746 [main] INFO : console logging level is WARN
+2023-12-10 20:58:41,766 [main] INFO : Reading Bearer Token from /home/jshook/.nosqlbench/prompush/prompush_apikey
+2023-12-10 20:58:41,777 [main] INFO : {"layer":"Scenario","start":1702241921777,"end":1702241921777,"details":{}}
+2023-12-10 20:58:42,940 [main] INFO : setting param alias=STDOUT0
+2023-12-10 20:58:42,993 [main] INFO : (<☑>) {block=block0, name=block0__stmt1, op=stmt1} : matched empty pattern
+2023-12-10 20:58:43,505 [main] INFO : defaulting stride to 1 (the sequence length)
+2023-12-10 20:58:43,510 [] INFO : {"layer":"Activity","start":1702241923507,"end":1702241923507,"details":{"event":"start-activity","params":"ActivityDef:(2)/{op\u003dnormal: {{Normal(50.0,10.0)}}\n, driver\u003dstdout, alias\u003dSTDOUT0, cycles\u003d10, stride\u003d1}"}}
+2023-12-10 20:58:43,717 [] INFO : starting activity STDOUT0 for cycles [0..10)=10
+2023-12-10 20:58:43,718 [] INFO : {"layer":"Activity","start":1702241923717,"end":1702241923717,"details":{"params":"ActivityDef:(2)/{op\u003dnormal: {{Normal(50.0,10.0)}}\n, driver\u003dstdout, alias\u003dSTDOUT0, cycles\u003d10, stride\u003d1}"}}
+2023-12-10 20:58:43,974 [] INFO : {"layer":"Activity","start":1702241923916,"end":1702241923974,"details":{"event":"stop-activity","params":"ActivityDef:(2)/{op\u003dnormal: {{Normal(50.0,10.0)}}\n, driver\u003dstdout, alias\u003dSTDOUT0, cycles\u003d10, stride\u003d1}"}}
+2023-12-10 20:58:44,204 [main] INFO : ExecutionResult{status=OK, startedAt=1702241921994, endedAt=1702241924197, exception=null, iolog=''}

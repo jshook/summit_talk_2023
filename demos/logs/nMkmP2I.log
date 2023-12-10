@@ -1,0 +1,62 @@
+2023-12-10 20:15:55,505 [main] INFO : Configured scenario log at logs/nMkmP2I.log
+2023-12-10 20:15:55,509 [main] INFO : Running NoSQLBench Version 5.21.1-SNAPSHOT
+2023-12-10 20:15:55,509 [main] INFO : command-line: baselinesv2/cql_keyvalue2 host=localhost localdc=datacenter1
+2023-12-10 20:15:56,194 [main] INFO : client-hardware: {"processor-name":"AMD Ryzen 9 3900X 12-Core Processor","heap-max-GiB":"15.68","if-speeds":["0Mib","1Gib"],"physical-cores":"12","max-frequency-ghz":"0.00","logical-cores":"24","sockets":"1","memory-GiB":"62.73"}
+2023-12-10 20:15:56,393 [main] INFO : workload URI: 'jar:file:///tmp/.mount_nb5d7ogvJ/usr/bin/nb5.jar!/activities/baselinesv2/cql_keyvalue2.yaml'
+2023-12-10 20:15:56,458 [main] INFO : {"layer":"Session","start":1702239356454,"end":1702239356454,"details":{"cli":"baselinesv2/cql_keyvalue2\nhost\u003dlocalhost\nlocaldc\u003ddatacenter1"}}
+2023-12-10 20:15:57,162 [main] INFO : console logging level is WARN
+2023-12-10 20:15:57,192 [main] INFO : Reading Bearer Token from /home/jshook/.nosqlbench/prompush/prompush_apikey
+2023-12-10 20:15:57,207 [main] INFO : {"layer":"Scenario","start":1702239357206,"end":1702239357206,"details":{}}
+2023-12-10 20:15:58,330 [main] INFO : workload URI: 'jar:file:///tmp/.mount_nb5d7ogvJ/usr/bin/nb5.jar!/activities/baselinesv2/cql_keyvalue2.yaml'
+2023-12-10 20:15:58,358 [main] INFO : workload URI: 'jar:file:///tmp/.mount_nb5d7ogvJ/usr/bin/nb5.jar!/activities/baselinesv2/cql_keyvalue2.yaml'
+2023-12-10 20:15:58,371 [main] INFO : (☑,☑) filter(block:schema) tag(block:schema): matched pattern '^schema$'
+2023-12-10 20:15:58,372 [main] INFO : (☑,☑) filter(block:schema) tag(block:schema): matched pattern '^schema$'
+2023-12-10 20:15:58,372 [main] INFO : (☑,☐) filter(block:schema) tag(block:schema_astra): did not match '^schema$'
+2023-12-10 20:15:58,372 [main] INFO : (☑,☐) filter(block:schema) tag(block:rampup): did not match '^schema$'
+2023-12-10 20:15:58,372 [main] INFO : (☑,☐) filter(block:schema) tag(block:verify): did not match '^schema$'
+2023-12-10 20:15:58,372 [main] INFO : (☑,☐) filter(block:schema) tag(block:verify): did not match '^schema$'
+2023-12-10 20:15:58,372 [main] INFO : (☑,☐) filter(block:schema) tag(block:main_read): did not match '^schema$'
+2023-12-10 20:15:58,372 [main] INFO : (☑,☐) filter(block:schema) tag(block:main_write): did not match '^schema$'
+2023-12-10 20:15:58,467 [main] INFO : Using prepared statement form for 'schema__create_keyspace
+2023-12-10 20:15:58,786 [main] INFO : DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.17.0
+2023-12-10 20:15:58,886 [main] INFO : Adding handler to invalidate cached prepared statements on type changes
+2023-12-10 20:15:59,147 [s0-admin-0] INFO : Using native clock for microsecond precision
+2023-12-10 20:15:59,460 [main] INFO : Using prepared statement form for 'schema__create_table
+2023-12-10 20:15:59,478 [main] INFO : defaulting stride to 2 (the sequence length)
+2023-12-10 20:15:59,478 [main] INFO : defaulting cycles to 2 (the stride length)
+2023-12-10 20:15:59,478 [main] INFO : setting param cycles=2
+2023-12-10 20:15:59,479 [main] INFO : setting threads to 1 (direct)
+2023-12-10 20:15:59,483 [] INFO : {"layer":"Activity","start":1702239359481,"end":1702239359481,"details":{"event":"start-activity","params":"ActivityDef:(13)/{localdc\u003ddatacenter1, driver\u003dcql, host\u003dlocalhost, threads\u003d1, workload\u003dbaselinesv2/cql_keyvalue2, alias\u003dschema, cycles\u003d2, stride\u003d2, tags\u003dblock:schema, labels\u003dworkload:cql_keyvalue2,scenario:default}"}}
+2023-12-10 20:15:59,687 [] INFO : setting threads to 1 (direct)
+2023-12-10 20:15:59,693 [] INFO : starting activity schema for cycles [0..2)=2
+2023-12-10 20:15:59,693 [] INFO : {"layer":"Activity","start":1702239359693,"end":1702239359693,"details":{"params":"ActivityDef:(13)/{localdc\u003ddatacenter1, driver\u003dcql, host\u003dlocalhost, threads\u003d1, workload\u003dbaselinesv2/cql_keyvalue2, alias\u003dschema, cycles\u003d2, stride\u003d2, tags\u003dblock:schema, labels\u003dworkload:cql_keyvalue2,scenario:default}"}}
+2023-12-10 20:16:04,124 [] INFO : {"layer":"Activity","start":1702239359891,"end":1702239364123,"details":{"event":"stop-activity","params":"ActivityDef:(13)/{localdc\u003ddatacenter1, driver\u003dcql, host\u003dlocalhost, threads\u003d1, workload\u003dbaselinesv2/cql_keyvalue2, alias\u003dschema, cycles\u003d2, stride\u003d2, tags\u003dblock:schema, labels\u003dworkload:cql_keyvalue2,scenario:default}"}}
+2023-12-10 20:16:04,367 [main] INFO : workload URI: 'jar:file:///tmp/.mount_nb5d7ogvJ/usr/bin/nb5.jar!/activities/baselinesv2/cql_keyvalue2.yaml'
+2023-12-10 20:16:04,382 [main] INFO : workload URI: 'jar:file:///tmp/.mount_nb5d7ogvJ/usr/bin/nb5.jar!/activities/baselinesv2/cql_keyvalue2.yaml'
+2023-12-10 20:16:04,389 [main] INFO : (☑,☐) filter(block:rampup) tag(block:schema): did not match '^rampup$'
+2023-12-10 20:16:04,389 [main] INFO : (☑,☐) filter(block:rampup) tag(block:schema): did not match '^rampup$'
+2023-12-10 20:16:04,389 [main] INFO : (☑,☐) filter(block:rampup) tag(block:schema_astra): did not match '^rampup$'
+2023-12-10 20:16:04,389 [main] INFO : (☑,☑) filter(block:rampup) tag(block:rampup): matched pattern '^rampup$'
+2023-12-10 20:16:04,390 [main] INFO : (☑,☐) filter(block:rampup) tag(block:verify): did not match '^rampup$'
+2023-12-10 20:16:04,390 [main] INFO : (☑,☐) filter(block:rampup) tag(block:verify): did not match '^rampup$'
+2023-12-10 20:16:04,390 [main] INFO : (☑,☐) filter(block:rampup) tag(block:main_read): did not match '^rampup$'
+2023-12-10 20:16:04,390 [main] INFO : (☑,☐) filter(block:rampup) tag(block:main_write): did not match '^rampup$'
+2023-12-10 20:16:04,696 [main] INFO : Using prepared statement form for 'rampup__rampup_insert
+2023-12-10 20:16:04,717 [main] INFO : Adding handler to invalidate cached prepared statements on type changes
+2023-12-10 20:16:04,720 [s1-admin-0] INFO : Using native clock for microsecond precision
+2023-12-10 20:16:04,752 [main] INFO : defaulting stride to 1 (the sequence length)
+2023-12-10 20:16:04,753 [main] INFO : setting threads to 240 (auto) [10xCORES]
+2023-12-10 20:16:04,753 [] INFO : {"layer":"Activity","start":1702239364753,"end":1702239364753,"details":{"event":"start-activity","params":"ActivityDef:(12)/{localdc\u003ddatacenter1, driver\u003dcql, host\u003dlocalhost, threads\u003d240, workload\u003dbaselinesv2/cql_keyvalue2, alias\u003drampup, cycles\u003d10000000, stride\u003d1, tags\u003dblock:rampup, labels\u003dworkload:cql_keyvalue2,scenario:default}"}}
+2023-12-10 20:16:04,951 [] INFO : setting threads to 240 (direct)
+2023-12-10 20:16:04,951 [] INFO : starting activity rampup for cycles [0..10000000)=10000000
+2023-12-10 20:16:04,952 [] INFO : {"layer":"Activity","start":1702239364951,"end":1702239364951,"details":{"params":"ActivityDef:(12)/{localdc\u003ddatacenter1, driver\u003dcql, host\u003dlocalhost, threads\u003d240, workload\u003dbaselinesv2/cql_keyvalue2, alias\u003drampup, cycles\u003d10000000, stride\u003d1, tags\u003dblock:rampup, labels\u003dworkload:cql_keyvalue2,scenario:default}"}}
+2023-12-10 20:16:07,413 [ProgressIndicator/console:10s] INFO : schema (pending,current,complete)=(0,0,2) 100.00% (last report)
+2023-12-10 20:16:07,414 [ProgressIndicator/console:10s] INFO : rampup (pending,current,complete)=(9818472,239,181528) 1.82%
+2023-12-10 20:16:17,185 [pool-2-thread-1] WARN : {instance="shooktest",jobname="nosqlbench",name="mem_used",node="10.10.100.66",session="nMkmP2I"} value = 98.71931889654537 > threshold 90.0
+2023-12-10 20:16:17,187 [pool-2-thread-1] WARN : {instance="shooktest",jobname="nosqlbench",name="cpu_user",node="10.10.100.66",session="nMkmP2I"} value = 54.43474465298996 > threshold 50.0
+2023-12-10 20:16:17,411 [ProgressIndicator/console:10s] INFO : rampup (pending,current,complete)=(8547878,240,1452122) 14.52%
+2023-12-10 20:16:27,183 [pool-2-thread-1] WARN : {instance="shooktest",jobname="nosqlbench",name="mem_used",node="10.10.100.66",session="nMkmP2I"} value = 98.95169292258636 > threshold 90.0
+2023-12-10 20:16:27,184 [pool-2-thread-1] WARN : {instance="shooktest",jobname="nosqlbench",name="cpu_user",node="10.10.100.66",session="nMkmP2I"} value = 56.77051338306275 > threshold 50.0
+2023-12-10 20:16:27,412 [ProgressIndicator/console:10s] INFO : rampup (pending,current,complete)=(7085916,240,2914084) 29.14%
+2023-12-10 20:16:34,969 [Thread-64] WARN : Activity was interrupted by process exit, shutting down ungracefully. Annotations are still submitted.
+2023-12-10 20:16:34,970 [Thread-64] INFO : {"layer":"Activity","start":1702239365147,"end":1702239394969,"details":{"event":"stop-activity","params":"ActivityDef:(12)/{localdc\u003ddatacenter1, driver\u003dcql, host\u003dlocalhost, threads\u003d240, workload\u003dbaselinesv2/cql_keyvalue2, alias\u003drampup, cycles\u003d10000000, stride\u003d1, tags\u003dblock:rampup, labels\u003dworkload:cql_keyvalue2,scenario:default}"}}

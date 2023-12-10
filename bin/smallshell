@@ -1,0 +1,3 @@
+#!/bin/bash
+PS1=">"
+exec bash --rcfile <(echo "export PS1='NB5>'")

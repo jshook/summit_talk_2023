@@ -1,0 +1,18 @@
+2023-12-10 20:31:22,571 [main] INFO : Configured scenario log at logs/nMkqln3.log
+2023-12-10 20:31:22,574 [main] INFO : Running NoSQLBench Version 5.21.1-SNAPSHOT
+2023-12-10 20:31:22,575 [main] INFO : command-line: run driver=stdout workload=workload1.yaml cycles=5
+2023-12-10 20:31:23,257 [main] INFO : client-hardware: {"heap-max-GiB":"15.68","processor-name":"AMD Ryzen 9 3900X 12-Core Processor","memory-GiB":"62.73","sockets":"1","logical-cores":"24","max-frequency-ghz":"0.00","physical-cores":"12","if-speeds":["0Mib","1Gib"]}
+2023-12-10 20:31:23,458 [main] INFO : {"layer":"Session","start":1702240283453,"end":1702240283453,"details":{"cli":"run\ndriver\u003dstdout\nworkload\u003dworkload1.yaml\ncycles\u003d5"}}
+2023-12-10 20:31:24,118 [main] INFO : console logging level is WARN
+2023-12-10 20:31:24,149 [main] INFO : Reading Bearer Token from /home/jshook/.nosqlbench/prompush/prompush_apikey
+2023-12-10 20:31:24,165 [main] INFO : {"layer":"Scenario","start":1702240284165,"end":1702240284165,"details":{}}
+2023-12-10 20:31:25,298 [main] INFO : setting param alias=workload1.yaml
+2023-12-10 20:31:25,323 [main] INFO : workload URI: 'file:///home/jshook/IdeaProjects/nosqlbench/local/summitalk/demos/workload1.yaml'
+2023-12-10 20:31:25,353 [main] INFO : workload URI: 'file:///home/jshook/IdeaProjects/nosqlbench/local/summitalk/demos/workload1.yaml'
+2023-12-10 20:31:25,361 [main] INFO : (<☑>) {block=block0, name=block0__op1, op=op1} : matched empty pattern
+2023-12-10 20:31:25,750 [main] INFO : defaulting stride to 1 (the sequence length)
+2023-12-10 20:31:25,755 [] INFO : {"layer":"Activity","start":1702240285753,"end":1702240285753,"details":{"event":"start-activity","params":"ActivityDef:(2)/{driver\u003dstdout, workload\u003dworkload1.yaml, alias\u003dworkload1.yaml, cycles\u003d5, stride\u003d1}"}}
+2023-12-10 20:31:25,959 [] INFO : starting activity workload1.yaml for cycles [0..5)=5
+2023-12-10 20:31:25,960 [] INFO : {"layer":"Activity","start":1702240285960,"end":1702240285960,"details":{"params":"ActivityDef:(2)/{driver\u003dstdout, workload\u003dworkload1.yaml, alias\u003dworkload1.yaml, cycles\u003d5, stride\u003d1}"}}
+2023-12-10 20:31:26,207 [] INFO : {"layer":"Activity","start":1702240286150,"end":1702240286206,"details":{"event":"stop-activity","params":"ActivityDef:(2)/{driver\u003dstdout, workload\u003dworkload1.yaml, alias\u003dworkload1.yaml, cycles\u003d5, stride\u003d1}"}}
+2023-12-10 20:31:26,425 [main] INFO : ExecutionResult{status=OK, startedAt=1702240284386, endedAt=1702240286419, exception=null, iolog=''}
