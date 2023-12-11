@@ -1,8 +1,0 @@
-{"version": 2, "width": 132, "height": 40, "timestamp": 1702247385, "idle_time_limit": 1.0, "env": {"SHELL": "smallshell", "TERM": "xterm-256color"}, "title": "05_run_builtin_workload"}
-[0.004802, "o", "+ INFO\r\n"]
-[0.005917, "o", "⦁ There are many workloads built-in to the NoSQLBench command.\r\n⦁ You can find them with --list-workloads or --list-scenarios.\r\n  ⦁ Each workload description may have more than one scenario to pick from.\r\n⦁ Running a built-in workload is as easy as knowing it's path and the\r\n  parameters needed for the driver.\r\n⦁ There are template variables which can override the defaults, like main-cycles.\r\n\r\n"]
-[0.006138, "o", "+ nb5 baselinesv2/cql_keyvalue2 host=localhost localdc=datacenter1 rampup-cycles=100K main-cycles=100K\r\n"]
-[7.977435, "o", "schema (pending,current,complete)=(0,0,2) 100.00% (last report)\r\n"]
-[12.155246, "o", "rampup (pending,current,complete)=(0,0,100000) 100.00% (last report)\r\n"]
-[13.200217, "o", "main (pending,current,complete)=(56539,240,43461) 43.46%\r\n"]
-[18.682093, "o", "main (pending,current,complete)=(0,0,100000) 100.00% (last report)\r\n"]

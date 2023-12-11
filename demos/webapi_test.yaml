@@ -1,0 +1,11 @@
+scenarios:
+ default:
+  basic_test: run driver=http
+bindings:
+ example1: FullNames();
+
+ops:
+ op1:
+  op: |
+   GET http://google.com/search&q={example1} HTTP/1.1
+
