@@ -1,0 +1,10 @@
+{"version": 2, "width": 132, "height": 40, "timestamp": 1702247379, "idle_time_limit": 1.0, "env": {"SHELL": "smallshell", "TERM": "xterm-256color"}, "title": "03_workload_elements"}
+[0.004412, "o", "+ tee workload1.yaml\r\n"]
+[0.006, "o", "bindings:\r\n cycle: Identity();\r\n name: NumberNameToString();\r\n\r\nops:\r\n op1:\r\n  stmt: \"testing: cycle={cycle}, name={name}\\n\"\r\n"]
+[0.006345, "o", "+ nb5 run driver=stdout workload=workload1.yaml cycles=5\r\n"]
+[5.052106, "o", "testing: cycle=0, name=zero\r\n"]
+[5.059781, "o", "testing: cycle=1, name=one\r\n"]
+[5.059927, "o", "testing: cycle=2, name=two\r\n"]
+[5.059963, "o", "testing: cycle=3, name=three\r\n"]
+[5.060096, "o", "testing: cycle=4, name=four\r\n"]
+[5.273596, "o", "workload1.yaml (pending,current,complete)=(0,0,5) 100.00% (last report)\r\n"]

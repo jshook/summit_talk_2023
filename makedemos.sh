@@ -21,7 +21,7 @@ do
  name=$(basename $demo)
  name=${name%%.sh}
  printf "name: %s\n" ${name}
- asciinema rec -i 1 --overwrite -t $name cast/$name.cast -c "bash -x demos/$name.sh"
+ asciinema rec -i 1 --cols 132 --rows 40 --overwrite -t $name cast/$name.cast -c "bash -x demos/$name.sh"
 done
 
 

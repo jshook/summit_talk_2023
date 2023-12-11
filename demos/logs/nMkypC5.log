@@ -1,5 +1,0 @@
-2023-12-10 21:06:37,074 [main] INFO : Configured scenario log at logs/nMkypC5.log
-2023-12-10 21:06:37,078 [main] INFO : Running NoSQLBench Version 5.21.1-SNAPSHOT
-2023-12-10 21:06:37,078 [main] INFO : command-line: --cat activities/baselinesv2/cql_keyvalue2.yaml
-2023-12-10 21:06:37,786 [main] INFO : client-hardware: {"memory-GiB":"62.73","processor-name":"AMD Ryzen 9 3900X 12-Core Processor","heap-max-GiB":"15.68","if-speeds":["0Mib","1Gib"],"physical-cores":"12","max-frequency-ghz":"0.00","logical-cores":"24","sockets":"1"}
-2023-12-10 21:06:37,939 [main] INFO : Dumped internal resource '/activities/baselinesv2/cql_keyvalue2.yaml' to stdout

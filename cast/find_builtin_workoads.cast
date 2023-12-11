@@ -1,9 +1,0 @@
-{"version": 2, "width": 198, "height": 40, "timestamp": 1702243718, "idle_time_limit": 1.0, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}, "title": "find_builtin_workoads"}
-[0.005001, "o", "+ nb5 --list-workloads\r\n"]
-[0.005621, "o", "+ grep cql\r\n"]
-[2.735211, "o", "/activities/baselines/cql_iot.yaml\r\n/activities/baselines/cql_iot_dse.yaml\r\n/activities/baselines/cql_keyvalue.yaml\r\n# A cql-starter workload\r\n/activities/baselines/cql_starter.yaml\r\n/activities/baselines/cql_tabular.yaml\r\n/activities/baselines/cql_vector.yaml\r\n/activities/baselines/cql_vector_typed.yaml\r\n"]
-[2.735454, "o", "/activities/baselinesv2/cql_keyvalue2.yaml\r\n/activities/baselinesv2/cql_keyvalue2_bulky.yaml\r\n/activities/baselinesv2/cql_tabular2.yaml\r\n/activities/baselinesv2/cql_timeseries2.yaml\r\n/activities/baselinesv2/cql_vector2.yaml\r\n/activities/baselinesv2/cql_vector2_fvec.yaml\r\n# This workload is analogous to the cql-keyvalue2 workload, just implemented for MongoDB\r\n"]
-[2.735548, "o", "# This workload is analogous to the cql-tabular2 workload, just implemented for MongoDB\r\n# This workload is analogous to the cql-timeseries2 workload, just implemented for MongoDB\r\n# This workload is analogous to the cql-keyvalue2 workload, just implemented for MongoDB Atlas Vector Search\r\n"]
-[2.735583, "o", "/activities/examples/bindings/cqlvectors.yaml\r\n/activities/examples/cql-rowops.yaml\r\n"]
-[2.735683, "o", "/activities/graphql-cql-first/http-graphql-cql-keyvalue.yaml\r\n/activities/graphql-cql-first/http-graphql-cql-tabular.yaml\r\n/activities/graphql-cql-first/http-graphql-cql-timeseries.yaml\r\n"]
-[2.975865, "o", "+ nb5 --cat examples/cql-rowops.yaml\r\n"]

@@ -1,8 +1,0 @@
-{"version": 2, "width": 198, "height": 40, "timestamp": 1702243766, "idle_time_limit": 1.0, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}, "title": "workload"}
-[0.00446, "o", "+ tee workload1.yaml\r\n"]
-[0.005494, "o", "bindings:\r\n cycle: Identity();\r\n name: NumberNameToString();\r\n\r\nops:\r\n op1:\r\n  stmt: \"testing: cycle={cycle}, name={name}\\n\"\r\n"]
-[0.005704, "o", "+ nb5 run driver=stdout workload=workload1.yaml cycles=5\r\n"]
-[5.101928, "o", "testing: cycle=0, name=zero\r\n"]
-[5.109129, "o", "testing: cycle=1, name=one\r\n"]
-[5.109242, "o", "testing: cycle=2, name=two\r\ntesting: cycle=3, name=three\r\n"]
-[5.109317, "o", "testing: cycle=4, name=four\r\n"]
