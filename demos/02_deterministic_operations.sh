@@ -4,7 +4,8 @@ INFO << EOF
 ⦁ No matter what distribution you use, the sampling curve is pre-computed on init.
 ⦁ Bindings (the {{...}} parts) are deterministic with respect to cycles.
 ⦁ Cycles define the interval of seed values used as well as total operations.
-⦁ The op= form is a convenient ad-hoc way to specify a minimal workload.
+⦁ The op= form is an ad-hoc way to specify a minimal workload on the command line.
+
 
 EOF
 

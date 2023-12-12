@@ -2,9 +2,12 @@ INFO << EOF
 ⦁ You can have template variables in your workload which are textual
   place holders for custom values. This does a text-only substitution
   before the file is parsed as YAML.
-⦁ "TEMPLATE(name,value)" is how you specify template variables.
+⦁ You specify template variables in a workload with "TEMPLATE(name,defaultvalue)".
+⦁ You give them a value on the command line as name=value.
 ⦁ "Template(...)" is a binding function which composites generated values
-  tegether. They are used together in this example.
+  tegether in a string template.
+⦁ Both the TEMPLATE variable form and the Template binding function are used
+  together here.
 
 EOF
 
@@ -24,5 +27,6 @@ ops:
 EOF
 
 nb5 workload1
+
 
 nb5 workload1 maxvalue=100000

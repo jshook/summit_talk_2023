@@ -1,4 +1,4 @@
-{"version": 2, "width": 198, "height": 40, "timestamp": 1702246161, "idle_time_limit": 1.0, "env": {"SHELL": "/home/jshook/IdeaProjects/nosqlbench/local/summitalk/demos/../bin/smallshell", "TERM": "xterm-256color"}, "title": "04_find_workloads"}
+{"version": 2, "width": 198, "height": 40, "timestamp": 1702246161, "idle_time_limit": 1.0, "env": {"SHELL": "/home/jshook/IdeaProjects/nosqlbench/local/summitalk/demos/../bin/smallshell", "TERM": "xterm-256color"}, "title": "06_find_workloads"}
 [0.006399, "o", "\u001b[?2004hNB5>"]
 [0.611972, "o", "n"]
 [0.704199, "o", "b"]

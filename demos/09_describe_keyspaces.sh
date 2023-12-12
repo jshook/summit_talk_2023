@@ -2,7 +2,7 @@ INFO << EOF
 ⦁ In this example, cycles defaults to the number of defined operations (one).
 ⦁ Additionally, an option dryrun=emit causes the result of the operation to be
   emitted to stdout.
-⦁ The result is an object, but the driver adapter provides a printable form.
+⦁ The result is a ResultSet object, but the driver adapter provides a printable form.
 
 EOF
 
